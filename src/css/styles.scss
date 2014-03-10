@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+@import '../bower_components/bootstrap-sass/lib/bootstrap';
+@import '../bower_components/bootstrap-sass/lib/_theme.scss';
+
+@import 'modules/slider';
+
+body {
+  padding-left: 0;
+  padding-right: 0;
+}
+.navbar {
+  height: 80px;
+  background: red;
+  border-radius: 0;
+}
+.navbar .navbar-inner {
+  height: 80px;
+  padding: 20px;
+  font-size: 18px;
+}
+.navbar .navbar-inner .brand {
+  font-weight: bold;
+  line-height: 40px;
+  font-family:"arial";
+  font-size: 50px;
+  font-style: italic;
+  color: #ffffff;
+  text-shadow: 4px 0px 1px #7c7c7c;
+  margin: 0;
+}
+
+.container.container-1 {
+  margin-top: 60px;
+}
+
+.container-1 .row-fluid .span4 .heading {
+  font-weight: normal;
+  font-size: 29px;
+  text-align: center;
+  color: #454545;
+}
+.container-1 .row-fluid .span4 .icon.icon-envelope-alt {
+  font-size: 84px;
+  color: #4a7a07;
+  height: 84px;
+  width: 131px;
+}
+.container-1 .row-fluid .span4 p {
+  font-weight: 300;
+  font-size: 16px;
+  text-align: center;
+  line-height: 25px;
+}
+.container-1 .row-fluid .span4 .icon.icon-magnet {
+  font-size: 66px;
+  color: #d20000;
+  height: 66px;
+  width: 87px;
+}
+.container.container-2 {
+  padding: 60px 0px 60px 0px;
+}
+.container-2 .row-fluid .span12 p {
+  font-weight: 300;
+  font-size: 22px;
+  text-align: center;
+}
+.container-fluid.container-fluid-2 {
+  background: #333333;
+  padding: 30px 20px 30px 20px;
+}
+.container-fluid-2 .container .row-fluid .span12 .pull-left p {
+  font-weight: 300;
+  color: #ffffff;
+  line-height: 36px;
+}
+.container-fluid-2 .container .row-fluid .span12 .nav {
+  margin: 0px;
+}
+.container-fluid-2 .container .row-fluid .span12 .nav li a {
+  text-align: center;
+  color: #cccccc;
+}

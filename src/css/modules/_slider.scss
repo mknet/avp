@@ -1,0 +1,32 @@
+#slider {
+
+  background: #c62626 url(../images/source.jpg) repeat 0% 0%;
+  background-size: cover;
+
+  .sub-head {
+    color: #ffffff;
+  }
+
+  .span6 .heading {
+    font-size: 58px;
+    color: #ffffff;
+    line-height: 64px;
+    font-family:"alternate-gothic-no-2-d";
+    background: rgba(133, 133, 133, 0.580392);
+  }
+
+  .span6-1 {
+    padding: 21px;
+
+    .btn-primary {
+      background: #942929;
+      -moz-box-shadow: none;
+      -webkit-box-shadow: none;
+      -o-box-shadow: none;
+      box-shadow: none;
+      text-shadow: none;
+      border-radius: 3px;
+      border: none;
+    }
+  }
+}
