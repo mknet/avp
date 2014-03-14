@@ -4,6 +4,7 @@
   background-size: cover;
   position: relative;
   height: 250px;
+  line-height: 1;
 
   .container {
     height: 250px;
@@ -53,5 +54,11 @@
       border-radius: 3px;
       border: none;
     }
+  }
+
+  .flex-direction-nav a {
+    padding: 0;
+    vertical-align: baseline;
+    font-size: 100%;
   }
 }
