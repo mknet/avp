@@ -1,6 +1,6 @@
 $(function() {
     'use strict';
 
-    $('#slider').flexslider();
+    $('#slider').flexslider({itemWidth: '520'});
 
 });

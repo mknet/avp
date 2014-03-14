@@ -2,9 +2,15 @@
 
   background: #c62626 url(../images/source.jpg) repeat 0% 0%;
   background-size: cover;
+  position: relative;
+  height: 250px;
+
+  .container {
+    height: 250px;
+  }
 
   h1 {
-    font-size: 16px;
+    font-size: 55px;
 
     span {
       font-size: 0.3em;
@@ -12,8 +18,14 @@
     }
   }
 
-  li {
-    list-style-type: none;
+  .slides {
+    li {
+      list-style-type: none;
+
+      &:first-child {
+        background-image: url(../../images/bic_l.jpg);
+      }
+    }
   }
 
   .sub-head {
