@@ -23,6 +23,14 @@
       }
     }
   }
+
+  .navbar-collapse {
+    @media (max-width: $screen-xs-max) {
+      background-color: red;
+      z-index: 1000;
+      position: relative;
+    }
+  }
 }
 .navbar .navbar-inner {
   height: 80px;
