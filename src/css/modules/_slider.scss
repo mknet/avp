@@ -25,6 +25,37 @@
 
       &:first-child {
         background-image: url(../../images/bic_l.jpg);
+
+        h1 {
+          background: #fff;
+          padding: 2px;
+        }
+      }
+      
+      &.video {
+        max-height: 250px;
+        overflow: hidden;
+
+        .container {
+          position: absolute;
+          z-index: 10;
+
+          h1, button {
+            color: #fff;
+          }
+        }
+
+        video {
+          margin-top: -260px;
+        }
+
+        .video-overlay {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          background-color: black;
+          opacity: 0.5;
+        }
       }
     }
   }
@@ -53,7 +84,14 @@
       text-shadow: none;
       border-radius: 3px;
       border: none;
+      font-size: 22px;
+
+      &:hover {
+        background: red;
+      }
     }
+
+
   }
 
   .flex-direction-nav a {
