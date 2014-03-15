@@ -4,34 +4,12 @@
 @import '../bower_components/bootstrap-sass/lib/_theme.scss';
 @import '../bower_components/fontawesome/scss/font-awesome.scss';
 
+@import 'modules/navbar';
 @import 'modules/slider';
 
 body {
   padding-left: 0;
   padding-right: 0;
-}
-.navbar {
-  height: 80px;
-  background: red;
-  border-radius: 0;
-}
-.navbar .navbar-inner {
-  height: 80px;
-  padding: 20px;
-  font-size: 18px;
-}
-.navbar .navbar-inner .brand {
-  font-weight: bold;
-  line-height: 40px;
-  font-family:"arial";
-  font-size: 50px;
-  font-style: italic;
-  color: #ffffff;
-  text-shadow: 4px 0px 1px #7c7c7c;
-  margin: 0;
-}
-.navbar-toggle .icon-bar {
-  background-color: black;
 }
 
 .container.container-1 {
