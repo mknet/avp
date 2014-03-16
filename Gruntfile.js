@@ -64,7 +64,8 @@ module.exports = function (grunt) {
                         return [
                             lrSnippet,
                             mountFolder(connect, '.tmp'),
-                            mountFolder(connect, yeomanConfig.src)
+                            mountFolder(connect, yeomanConfig.src),
+                            mountFolder(connect, yeomanConfig.src + '/bower_components/bootstrap-sass')
                         ];
                     }
                 }
@@ -287,6 +288,11 @@ module.exports = function (grunt) {
                         'images/!(svg-src)/**',
                         'css/fonts/*'
                     ]
+                }, {
+                    expand: true,
+                    cwd: '<%= yeoman.src %>/bower_components/bootstrap-sass/fonts/',
+                    dest: '<%= yeoman.build %>/fonts/',
+                    src : '*'
                 }]
             }
         },
