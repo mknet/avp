@@ -7,6 +7,7 @@
 @import 'modules/navbar';
 @import 'modules/slider';
 @import 'modules/supported-products';
+@import 'modules/slogan';
 
 body {
   padding-left: 0;
@@ -40,14 +41,6 @@ body {
   color: #d20000;
   height: 66px;
   width: 87px;
-}
-.container.container-2 {
-  padding: 60px 0px 60px 0px;
-}
-.container-2 .row-fluid .span12 p {
-  font-weight: 300;
-  font-size: 22px;
-  text-align: center;
 }
 .container-fluid.container-fluid-2 {
   background: #333333;

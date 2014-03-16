@@ -65,7 +65,8 @@ module.exports = function (grunt) {
                             lrSnippet,
                             mountFolder(connect, '.tmp'),
                             mountFolder(connect, yeomanConfig.src),
-                            mountFolder(connect, yeomanConfig.src + '/bower_components/bootstrap-sass')
+                            mountFolder(connect, yeomanConfig.src + '/bower_components/bootstrap-sass'),
+                            mountFolder(connect, yeomanConfig.src + '/bower_components/fontawesome')
                         ];
                     }
                 }
