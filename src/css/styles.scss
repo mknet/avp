@@ -17,6 +17,10 @@ body {
   background-position: fixed;
 }
 
+p, div, span {
+  color: #666666;
+}
+
 .container.container-1 {
   margin-top: 60px;
 }
@@ -46,7 +50,7 @@ body {
   width: 87px;
 }
 .container-fluid.container-fluid-2 {
-  background: #333333;
+  background: #A60400;
   padding: 30px 20px 30px 20px;
 }
 .container-fluid-2 .container .row-fluid .span12 .pull-left p {

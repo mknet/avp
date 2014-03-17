@@ -1,3 +1,17 @@
+@keyframes changewidth {
+  from {
+    margin-left: 10px;
+    margin-right: auto;
+    color: green;
+  }
+
+  to {
+    margin-left: auto;
+    margin-right: 10px;
+    color: red;
+  }
+}
+
 #supported-products {
   .row {
     text-align: center;
@@ -12,6 +26,14 @@
     display: block;
     margin: 0 auto 0.25em auto;
     font-size: 80px;
+  }
+
+  .fa {
+    animation-duration: 0.1s;
+    animation-name: changewidth;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    color: blue;
   }
 
   .col-sm-3:hover {
