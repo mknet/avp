@@ -13,19 +13,23 @@
 }
 
 #supported-products {
+
+  h1 {
+    background: #B20000;
+    color: white;
+    padding: 0.5em;
+  }
+
   .row {
     text-align: center;
     font-size: 16px;
-  }
-
-  h1 {
-    margin-bottom: 1em;
   }
 
   .glyphicon, .fa {
     display: block;
     margin: 0 auto 0.25em auto;
     font-size: 80px;
+    color: #b20000;
   }
 
   .fa {
@@ -33,10 +37,19 @@
     animation-name: changewidth;
     animation-iteration-count: infinite;
     animation-direction: alternate;
-    color: blue;
   }
 
-  .col-sm-3:hover {
-    color: red;
+  .col-lg-3 {
+    padding: 3px;
+    border: 1px solid transparent;
+
+    &:hover {
+      background: white;
+      border: 1px solid red;
+    }
+  }
+
+  .coffee:hover .fa {
+    color: saddlebrown;
   }
 }
