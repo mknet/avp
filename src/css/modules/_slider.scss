@@ -95,9 +95,14 @@
 
   }
 
-  .flex-direction-nav a {
-    padding: 0;
-    vertical-align: baseline;
-    font-size: 100%;
+  .flex-direction-nav {
+    a {
+      padding: 0;
+      vertical-align: baseline;
+      font-size: 100%;
+    }
+    a:hover {
+      color: red;
+    }
   }
 }
