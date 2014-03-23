@@ -13,11 +13,16 @@ $avp-dark-red: #B20000;
 @import 'modules/slogan';
 @import 'modules/coffee-machines';
 
+
 body {
   padding-left: 0;
   padding-right: 0;
   background-image: url(../images/bg.png);
   background-position: fixed;
+
+  > section {
+    margin-bottom: 30px;
+  }
 }
 
 p, div, span {

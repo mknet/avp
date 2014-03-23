@@ -7,4 +7,40 @@
       border: 1px solid $avp-dark-red;
     }
   }
+
+  .fa {
+    color: saddlebrown;
+  }
+
+  .process > * {
+    padding-left: 40px;
+  }
+
+  ol {
+    list-style-type: none;
+    padding: 0;
+    border-left: 1px solid $avp-dark-red;
+
+    li {
+      position: relative;
+      margin-bottom: 3em;
+      font-size: 20px;
+
+      small {
+        display: block;
+      }
+
+      span {
+        background: $avp-dark-red;
+        display: inline-block;
+        width: 2em;
+        height: 2em;
+        color: white;
+        position: absolute;
+        margin-left: -60px;
+        text-align: center;
+        line-height: 2em;
+      }
+    }
+  }
 }
