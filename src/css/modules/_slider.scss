@@ -12,10 +12,12 @@
 
   h1 {
     font-size: 55px;
+    color: #fff;
 
     span {
       font-size: 0.3em;
       display: block;
+      color: white;
     }
   }
 
@@ -26,11 +28,16 @@
       &:first-child {
         background-image: url(../../images/slider-bg/IMG_0185.jpg);
         background-size: cover;
+      }
 
-        h1 {
-          background: #fff;
-          padding: 2px;
-        }
+      &:nth-child(2) {
+        background-image: url(../../images/slider-bg/IMG_0162.jpg);
+        background-size: cover;
+      }
+
+      &:nth-child(3) {
+        background-image: url(../../images/slider-bg/IMG_0171.jpg);
+        background-size: cover;
       }
       
       &.video {
@@ -41,7 +48,7 @@
           position: absolute;
           z-index: 10;
 
-          h1, button {
+          button {
             color: #fff;
           }
         }
