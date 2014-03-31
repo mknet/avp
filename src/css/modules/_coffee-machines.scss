@@ -20,6 +20,10 @@
     h1, button {
       margin-left: -19px;
     }
+
+    @media (max-width: $screen-md-max) {
+      padding-left: 80px;
+    }
   }
 
   ol {
