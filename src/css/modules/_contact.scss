@@ -9,6 +9,7 @@
 
   h2 {
     display: inline-block;
+    margin-bottom: 1em;
   }
 
   .row {
@@ -18,5 +19,36 @@
 
   .col-lg-4 {
     text-align: left;
+    font-size: 20px;
   }
+
+  .fa {
+    font-size: 30px;
+    margin-right: 0.5em;
+  }
+
+  .street-address {
+    display: block;
+  }
+
+  .tel:before {
+    content: "\f095";
+    font-family: FontAwesome;
+    line-height: 1;
+    font-style: normal;
+    margin-right: 0.5em;
+  }
+
+  .email:before {
+    @extend .tel:before;
+    content: "@";
+  }
+
+  .vcard {
+    p {
+      margin-bottom: 1.5em;
+    }
+  }
+
+
 }
