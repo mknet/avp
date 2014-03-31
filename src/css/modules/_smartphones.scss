@@ -12,12 +12,14 @@
     color: #800080;
   }
 
-  .process > * {
-    padding-left: 40px;
-  }
+  .process {
+    ul {
+      padding-left: 40px;
+    }
 
-  h1 {
-    margin-top: 0;
+    h1, button {
+      margin-left: -19px;
+    }
   }
 
   ul {
