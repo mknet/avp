@@ -12,45 +12,55 @@
     color: #800080;
   }
 
+
   .process {
-    ul {
+    > ul {
       padding-left: 40px;
-    }
+      list-style-type: none;
+      padding: 0;
 
-    h1, button {
-      margin-left: -19px;
-    }
+      > li {
+        position: relative;
+        margin-bottom: 3em;
+        font-size: 20px;
 
-    @media (max-width: $screen-md-max) {
-      padding-left: 80px;
-    }
-  }
+        ul {
+          list-style-type: square;
+          padding: 0;
+          list-style-position: inside;
+          list-style-color: red;
+        }
 
-  ul {
-    list-style-type: none;
-    padding: 0;
-
-    li {
-      position: relative;
-      margin-bottom: 3em;
-      font-size: 20px;
-
-      &:before {
-        background: $avp-dark-red;
-        display: inline-block;
-        width: 2em;
-        height: 2em;
-        color: white;
-        position: absolute;
-        margin-left: -60px;
-        text-align: center;
-        line-height: 2em;
-        content: '-';
-      }
+        &:before {
+          background: $avp-dark-red;
+          display: inline-block;
+          width: 2em;
+          height: 2em;
+          color: white;
+          position: absolute;
+          margin-left: -60px;
+          text-align: center;
+          line-height: 2em;
+          content: '-';
+        }
 
       small {
         display: block;
       }
+    }
+    }
+
+    h1, button, > p {
+      margin-left: -19px;
+    }
+
+    > p {
+      font-size: 20px;
+      margin-bottom: 1em;
+    }
+
+    @media (max-width: $screen-md-max) {
+      padding-left: 80px;
     }
   }
 }
