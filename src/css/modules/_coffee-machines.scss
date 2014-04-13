@@ -40,7 +40,7 @@
         display: block;
       }
 
-      span {
+      > span {
         background: $avp-dark-red;
         display: inline-block;
         width: 2em;
