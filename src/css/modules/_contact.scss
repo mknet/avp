@@ -50,5 +50,17 @@
     }
   }
 
+  a, a:link, a:visited {
+    color: $avp-dark-red;
+  }
 
+  a:hover {
+    color: red;
+  }
+
+  .col-lg-4 {
+    @media (max-width: $screen-md-max) {
+      padding-left: 80px;
+    }
+  }
 }
