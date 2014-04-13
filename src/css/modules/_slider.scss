@@ -6,6 +6,10 @@
   height: 250px;
   line-height: 1;
 
+  button {
+    margin-bottom: 1em;
+  }
+
   .container {
     height: 250px;
   }
@@ -26,6 +30,7 @@
   .slides {
     li {
       list-style-type: none;
+      hyphens: auto;
 
       &:first-child {
         background-image: url(../../images/slider-bg/IMG_0185.jpg);
