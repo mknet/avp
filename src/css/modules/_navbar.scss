@@ -59,6 +59,10 @@
       line-height: 1.4em;
       margin-left: 1.5em;
       width: 110px;
+
+      @media (max-width: $screen-sm-max) {
+        display: none;
+      }
     }
   }
 
