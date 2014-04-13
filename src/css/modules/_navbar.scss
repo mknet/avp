@@ -1,8 +1,22 @@
-.navbar-default .navbar-nav > .dropdown {
-  &> a {
-    &:hover .caret, &:focus .caret, .caret {
-      border-top-color: #fff;
-      border-bottom-color: #fff;
+.navbar-default .navbar-nav {
+  > .dropdown {
+    &> a {
+      &:hover .caret, &:focus .caret, .caret {
+        border-top-color: #fff;
+        border-bottom-color: #fff;
+      }
+    }
+  }
+
+  > .open {
+    > a, > a:link, > a:hover, > a:focus {
+      background-color: white;
+      color: $avp-dark-red;
+
+      .caret {
+        border-top-color: $avp-dark-red;
+        border-bottom-color: $avp-dark-red;
+      }
     }
   }
 }
@@ -41,6 +55,19 @@
     > li a {
       &:link, &:visited {
         color: #fff;
+      }
+    }
+
+    .dropdown-menu {
+      background: white;
+      border: $avp-dark-red;
+      color: $avp-dark-red;
+      border-radius: 0;
+
+      a {
+        &:link, &:hover, &:visited {
+          color: $avp-dark-red;
+        }
       }
     }
   }
