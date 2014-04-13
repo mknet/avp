@@ -21,6 +21,18 @@
     color: #ffffff;
     text-shadow: 4px 0px 1px #7c7c7c;
     margin: 0;
+
+    span {
+      font-style: normal;
+      color: white;
+      font-size: 0.3em;
+      display: block;
+      text-shadow: none;
+      float: right;
+      line-height: 1.4em;
+      margin-left: 1.5em;
+      width: 110px;
+    }
   }
 
   .navbar-nav {
