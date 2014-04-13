@@ -1,21 +1,34 @@
-.navbar-default .navbar-nav {
-  > .dropdown {
-    &> a {
-      &:hover .caret, &:focus .caret, .caret {
-        border-top-color: #fff;
-        border-bottom-color: #fff;
-      }
+.navbar-default {
+  .navbar-toggle {
+    border-color: white;
+    border-radius: 0;
+    .icon-bar {
+      background-color: white;
+    }
+    &:hover, &:focus {
+      background-color: $avp-dark-red;
     }
   }
 
-  > .open {
-    > a, > a:link, > a:hover, > a:focus {
-      background-color: white;
-      color: $avp-dark-red;
+  .navbar-nav {
+    > .dropdown {
+      &> a {
+        &:hover .caret, &:focus .caret, .caret {
+          border-top-color: #fff;
+          border-bottom-color: #fff;
+        }
+      }
+    }
 
-      .caret {
-        border-top-color: $avp-dark-red;
-        border-bottom-color: $avp-dark-red;
+    > .open {
+      > a, > a:link, > a:hover, > a:focus {
+        background-color: white;
+        color: $avp-dark-red;
+
+        .caret {
+          border-top-color: $avp-dark-red;
+          border-bottom-color: $avp-dark-red;
+        }
       }
     }
   }
