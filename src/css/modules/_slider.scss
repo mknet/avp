@@ -65,7 +65,8 @@
     padding: 21px;
 
     .btn-primary {
-      background: #942929;
+      background: white;
+      background: rgba(255,255,255,0.7);
       -moz-box-shadow: none;
       -webkit-box-shadow: none;
       -o-box-shadow: none;
@@ -75,9 +76,11 @@
       font-size: 22px;
       border-radius: 0;
       margin-right: 1em;
+      color: red;
 
       &:hover {
         background: red;
+        color: white;
       }
     }
 
