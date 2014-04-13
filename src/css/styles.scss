@@ -15,6 +15,7 @@ $avp-dark-red: #B20000;
 @import 'modules/coffee-machines';
 @import 'modules/smartphones';
 @import 'modules/contact';
+@import 'modules/footer';
 
 
 body {
@@ -71,8 +72,4 @@ p, div, span {
 }
 .container-fluid-2 .container .row-fluid .span12 .nav {
   margin: 0px;
-}
-.container-fluid-2 .container .row-fluid .span12 .nav li a {
-  text-align: center;
-  color: #cccccc;
 }
