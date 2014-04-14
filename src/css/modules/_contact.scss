@@ -50,6 +50,12 @@
     }
   }
 
+  ul {
+    list-style-type: square;
+    list-style-position: inside;
+    padding-left: 0;
+  }
+
   a, a:link, a:visited {
     color: $avp-dark-red;
   }
