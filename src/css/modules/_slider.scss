@@ -21,6 +21,7 @@
   h1 {
     font-size: 55px;
     color: #000;
+    background: white;
     background-color: rgba(255,255,255,0.7);
     padding: 0.3em;
     margin-left: 30px;
@@ -64,6 +65,7 @@
     color: #ffffff;
     line-height: 64px;
     font-family:"alternate-gothic-no-2-d";
+    background: white;
     background: rgba(133, 133, 133, 0.580392);
   }
 
@@ -102,6 +104,11 @@
       padding: 0;
       vertical-align: baseline;
       font-size: 100%;
+      text-decoration: none;
+
+      @include old-ie {
+        color: black;
+      }
     }
     a:hover {
       color: red;

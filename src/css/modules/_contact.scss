@@ -68,5 +68,9 @@
     @media (max-width: $screen-md-max) {
       padding-left: 80px;
     }
+
+    @include old-ie {
+      padding-left: 80px;
+    }
   }
 }

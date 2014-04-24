@@ -1,7 +1,4 @@
 <!doctype html>
-<!--[if IE 7]> <html lang="en" class="lt-ie9 lt-ie8 no-js"> <![endif]-->
-<!--[if IE 8]> <html lang="en" class="lt-ie9 no-js"> <![endif]-->
-<!--[if gt IE 8]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -12,6 +9,9 @@
         <!-- build:css({.tmp,src}) css/styles.css -->
 		<link rel="stylesheet" href="bower_components/flexslider/flexslider.css">
         <link rel="stylesheet" href="css/styles.css">
+        <!--[if lte IE 8]>
+        <link rel="stylesheet" media="screen" type="text/css" href="css/ie.css" />
+        <![endif]-->
         <!-- endbuild -->
         <!-- build:js js/vendor/modernizr.js -->
         <script src="bower_components/modernizr/modernizr.js"></script>
@@ -23,6 +23,14 @@
         <noscript><link rel="stylesheet" href="images/svg-build/icons.fallback.css"></noscript>
     </head>
     <body>
+    <!--[if lte IE 8]>
+		<div class="oldbrowser-notification">
+			<p>
+			   <strong>Hinweis:</strong> Sie benutzen einen alten Browser und sehen eine reduzierte Version der Website. Installieren Sie doch einen aktuellen Browser: <a href="http://windows.microsoft.com/en-us/internet-explorer/products/ie/home">Internet Explorer</a>, <a href="http://www.mozilla.org/de/firefox/new/">Firefox</a>,  <a href="http://www.apple.com/de/safari/">Safari</a>, <a href="https://www.google.com/intl/de/chrome/browser/">Chrome</a>
+			</p>
+		</div>
+    <![endif]-->
+
         <nav class="navbar navbar-default" role="navigation">
             <div class="container-fluid">
                 <!-- Brand and toggle get grouped for better mobile display -->

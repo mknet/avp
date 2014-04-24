@@ -1,0 +1,16 @@
+$old-ie: true;
+@import 'styles.scss';
+
+.oldbrowser-notification {
+  background: black;
+  p {
+    color: white;
+    padding: 1em;
+  }
+
+  a, a:link, a:visited {
+    color: white;
+    font-style: bold;
+  }
+}
+

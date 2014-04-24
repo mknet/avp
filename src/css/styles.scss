@@ -4,8 +4,9 @@
 @import '../bower_components/bootstrap-sass/lib/_theme.scss';
 @import '../bower_components/fontawesome/scss/font-awesome.scss';
 
-
 $avp-dark-red: #B20000;
+
+@import 'util';
 
 @import 'modules/navbar';
 @import 'modules/slider';
@@ -17,7 +18,6 @@ $avp-dark-red: #B20000;
 @import 'modules/contact';
 @import 'modules/footer';
 @import 'modules/legal';
-
 
 body {
   padding-left: 0;
