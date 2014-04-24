@@ -23,7 +23,7 @@ body {
   padding-left: 0;
   padding-right: 0;
   background-image: url(../images/bg.png);
-  background-position: fixed;
+  overflow-x: hidden;
 
   > section {
     margin-bottom: 20px;
