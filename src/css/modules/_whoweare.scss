@@ -28,6 +28,11 @@
 
   .col-lg-6 {
     margin-bottom: 1em;
+
+    @media (max-width: $screen-sm-max) {
+      padding-left: 2em;
+      padding-right: 2em;
+    }
   }
 
   .text {
