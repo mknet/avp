@@ -37,5 +37,13 @@
 
   .text {
     text-align: left;
+
+    p {
+      max-width: 600px;
+
+      @media (max-width: $screen-md-max) {
+        padding-left: 40px;
+      }
+    }
   }
 }
