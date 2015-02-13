@@ -4,3 +4,6 @@ build
 .sass-cache
 src/bower_components
 .idea
+src/agb.html
+src/impressum.html
+src/index.html
