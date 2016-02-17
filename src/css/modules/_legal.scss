@@ -1,9 +1,16 @@
 .legal {
   margin-bottom: 3em;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+
   hr {
     border: 1px solid $avp-font-color;
     margin-top: 2em;
     margin-bottom: 2em;
+  }
+
+  li {
+    margin-bottom: 1em;
   }
 
   @media (min-width: $screen-md-min) {
