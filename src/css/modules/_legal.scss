@@ -1,5 +1,10 @@
 .legal {
   margin-bottom: 3em;
+  hr {
+    border: 1px solid $avp-font-color;
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
 
   @media (min-width: $screen-md-min) {
     margin-left: 10%;

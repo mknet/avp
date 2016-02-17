@@ -5,6 +5,7 @@
 @import '../bower_components/fontawesome/scss/font-awesome.scss';
 
 $avp-dark-red: #B20000;
+$avp-font-color: #666666;
 
 @import 'util';
 
@@ -32,7 +33,7 @@ body {
 }
 
 p, div, span {
-  color: #666666;
+  color: $avp-font-color;
 }
 
 .container.container-1 {
