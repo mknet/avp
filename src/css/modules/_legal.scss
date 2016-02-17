@@ -3,6 +3,14 @@
   margin-left: 1.5em;
   margin-right: 1.5em;
 
+  a, a:link, a:visited {
+    color: $avp-dark-red;
+  }
+
+  a:hover {
+    color: red;
+  }
+
   hr {
     border: 1px solid $avp-font-color;
     margin-top: 2em;
