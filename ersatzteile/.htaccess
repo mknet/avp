@@ -1,0 +1,6 @@
+Options -MultiViews
+RewriteEngine on
+RewriteBase /ersatzteile/ 
+RewriteCond %{HTTP_HOST} !^shop\.euras\.com$ 
+RewriteRule   ^(.*)\.(.*)$   catchseo.php?&url=$1.$2   [QSA,L]
+
