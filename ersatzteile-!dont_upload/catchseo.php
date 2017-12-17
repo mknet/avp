@@ -5,7 +5,7 @@
 /**
  * Settings
  */
-// Ask T. Hoellscher
+// Ask T. Hoelscher
 $customerID = '';
 $hashKey = '';
 ##############################################
