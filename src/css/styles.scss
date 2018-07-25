@@ -9,6 +9,27 @@ $avp-font-color: #666666;
 
 @import 'util';
 
+body {
+    padding-left: 0;
+    padding-right: 0;
+    background-image: url(../images/bg.png);
+    overflow-x: hidden;
+
+    > section {
+      margin-bottom: 20px;
+
+      .row {
+          margin-left: 0;
+          margin-right: 0;
+
+          [class*="col-"] {
+              padding-left: 0;
+              padding-right: 0;
+          }
+      }
+    }
+  }
+
 @import 'modules/navbar';
 @import 'modules/slider';
 @import 'modules/supported-products';
@@ -21,16 +42,6 @@ $avp-font-color: #666666;
 @import 'modules/footer';
 @import 'modules/legal';
 
-body {
-  padding-left: 0;
-  padding-right: 0;
-  background-image: url(../images/bg.png);
-  overflow-x: hidden;
-
-  > section {
-    margin-bottom: 20px;
-  }
-}
 
 p, div, span {
   color: $avp-font-color;
