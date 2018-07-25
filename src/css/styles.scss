@@ -76,3 +76,15 @@ p, div, span {
 .container-fluid-2 .container .row-fluid .span12 .nav {
   margin: 0px;
 }
+
+@media (max-width: $screen-sm-max) {
+    h1 {
+        font-size: 26px;
+    }
+    h2 {
+        font-size: 22px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+}
